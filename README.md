@@ -30,11 +30,17 @@ For your project this week, you will demonstrate proficiency by working with a g
 All links will direct to each person's GitHub profile.
 
 Sanny Sherief - UI Developer: https://github.com/sanny-io
+
 Ian Sanchez - UI Developer: https://github.com/slimylizard
+
 Kelly Moreira - Front-End Developer: https://github.com/misskellymore
+
 Alexis Panyathong - Front-End Developer: https://github.com/AlexisPanyathong
+
 Mariam Farrukh - Front-End Developer: https://github.com/mariam-farrukh
+
 Blair Reynolds - Front-End Developer: https://github.com/JiJi190
+
 Firealem Erko - Back-End Developer: https://github.com/ferko18
 
 
