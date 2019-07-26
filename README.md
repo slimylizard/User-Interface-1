@@ -29,5 +29,5 @@ For your project this week, you will demonstrate proficiency by working with a g
 ## **Team Members:**
 All links will direct to each person's GitHub profile.
 
-Alexis Panyathong - Front-End Developer (GitHub)
+Alexis Panyathong - Front-End Developer https://github.com/AlexisPanyathong
 
