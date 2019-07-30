@@ -3,11 +3,16 @@
     display: flex;
     justify-content: space-evenly;
     margin: auto;
+    @media @phone {
+        flex-direction: column;
+        justify-content: center;
+    }
     .dev{
         margin:2%;
         max-width: 25%;
         width: 100%;
         height: 230px;
+        border: 2px dashed yellow;
         background: @pink;
         h2{
             color: @blue;
@@ -24,6 +29,11 @@
         }
         p{
             padding: 5%;
+        }
+        @media @phone {
+            max-width: 100%;
+            width: 45%;
+            margin: 21% auto 0;
         }
     }
 }

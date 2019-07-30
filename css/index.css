@@ -151,6 +151,9 @@ table {
     padding: 5%;
   }
 }
+.top .top-q h1 {
+  font-size: 3rem;
+}
 .top .top-words {
   background: #f5f5f5;
   padding: 20px 15%;
@@ -193,13 +196,13 @@ nav .button {
   background: #ffcc00;
   color: #0a235C;
   border-radius: 10%;
-  padding: 2% 4% 5%;
+  padding: 15px 4% 30px;
   width: 15%;
   height: 0;
 }
 @media (min-width: 800px) {
   nav .button {
-    padding: 2% 3% 4%;
+    padding: 15px 3% 30px;
     width: 10%;
   }
 }
@@ -209,11 +212,18 @@ nav .button {
   justify-content: space-evenly;
   margin: auto;
 }
+@media (max-width: 500px) {
+  .us {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .us .dev {
   margin: 2%;
   max-width: 25%;
   width: 100%;
   height: 230px;
+  border: 2px dashed yellow;
   background: #ffafaf;
 }
 .us .dev h2 {
@@ -231,4 +241,11 @@ nav .button {
 }
 .us .dev p {
   padding: 5%;
+}
+@media (max-width: 500px) {
+  .us .dev {
+    max-width: 100%;
+    width: 45%;
+    margin: 21% auto 0;
+  }
 }
