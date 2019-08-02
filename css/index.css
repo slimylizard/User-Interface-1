@@ -23,14 +23,19 @@ html {
   flex-direction: column;
 }
 .advisors img {
-  height: 20%;
+  height: 300px;
   width: 100%;
+  border-radius: 10%;
 }
 .advisors h2 {
   color: white;
   font-size: 150%;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+.advisors p {
+  color: white;
+  padding: 5% 0;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -168,16 +173,24 @@ table {
   width: 100%;
   margin: 0 auto;
   background: #0a235C;
-  height: 300px;
+  height: 400px;
+}
+@media (min-width: 501px) {
+  .top {
+    height: 300px;
+  }
 }
 .top .top-words {
   background: #f5f5f5;
   padding: 20px 8%;
   margin: 5%;
 }
+.top .top-words p {
+  font-size: 1rem;
+}
 @media (min-width: 800px) {
   .top .top-words {
-    padding: 31px 6%;
+    padding: 21px 4% 45px;
     margin: 4% 6%;
     height: 90px;
   }
@@ -187,7 +200,7 @@ table {
   width: 100%;
   margin: 64px auto;
   background: #0a235C;
-  height: 300px;
+  height: 520px;
 }
 @media (min-width: 800px) {
   .middle {
@@ -247,8 +260,13 @@ table {
 .other .article .story p {
   color: white;
 }
+.other .article .story p a {
+  color: #f64ef6;
+}
 p {
   font-size: 1.3rem;
+  padding: 0 0 2%;
+  font-family: 'Lato', sans-serif;
 }
 nav {
   display: flex;
