@@ -2,23 +2,26 @@
     max-width: 90%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: auto;
     @media @phone {
         flex-direction: column;
         justify-content: center;
     }
     .dev{
-        margin:2%;
-        max-width: 25%;
+        margin:2% 0;
+        max-width: 31%;
         width: 100%;
-        height: 230px;
+        height: 600px;
         border: 2px dashed yellow;
         background: @pink;
         h2{
             color: @blue;
-            padding: 10%;
+            padding: 10% 10% 13px;
             text-align: center;
             font-size: 1.5rem;
+            border-bottom: 1px solid black;
+            margin: 0px 12% 17px;
         }
         img{
             width:85%;
@@ -26,14 +29,26 @@
             border-radius:60%;
             border: 2px solid @yellow;
             margin: 0 0 0 6%;
+            @media @notphone {
+                height: 33%;
+            }
         }
         p{
             padding: 5%;
         }
         @media @phone {
             max-width: 100%;
-            width: 45%;
-            margin: 21% auto 0;
+            width: 90%;
+            margin: 9% auto 0;
+            height: 600px;
         }
     }
+}
+h1{
+    font-family:@font;
+    font-size: 250%;
+    color: @yellow;
+    text-align: center;
+    margin: 30px 0 0;
+
 }

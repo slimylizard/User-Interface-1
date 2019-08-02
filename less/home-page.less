@@ -4,25 +4,14 @@
     margin: 0 auto;
     background: @blue;
     height: 300px;
-    .top-q{
-        margin: 0 15% 10%;
-        padding: 8%;
-        border-bottom: 1px solid @pink;
-        @media @tablet {
-            margin: 0 15% 5%;
-            padding: 5%;
-        }
-        h1{
-            font-size: 3rem;
-        }
-    }
     .top-words{
         background: @grey;
-        padding: 20px 15%;
+        padding: 20px 8%;
         margin: 5%;
         @media @tablet {
-            padding: 40px 10%;
-            margin: 6%;
+            padding: 31px 6%;
+            margin: 4% 6%;
+            height:90px;
         }
     }
 }
@@ -32,16 +21,61 @@
     margin: 64px auto;
     background: @blue;
     height: 300px;
-    .top-q{
-        margin: 0 15% 10%;
-        padding: 8%;
-        border-bottom: 1px solid @pink;
-        @media @tablet {
-            margin: 0 15% 5%;
-            padding: 5%;
-        }
+    @media @tablet {
+        height: 550px;
     }
     .carasoul{
         display: flex;
+        .slick-prev{
+            margin: 0 0 3%;
+            background: @blue;
+            padding: 15px;
+            color: @pink;
+            border: none;
+        }
+        .slick-next{
+            margin: 0 0 3%;
+            padding: 33px;
+            background: @blue;
+            color: @pink;
+            border: none;
+        }
     }
+}
+.other{
+    height:420px;
+    @media @phone {
+        height: 600px;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 5%;
+        border-bottom: 1px solid @pink;
+        margin: 0 20% 0;
+    }
+    .article{
+        padding: 3%;
+        display: flex;
+        justify-content: space-around;
+        .quote{
+            width: 35%;
+            p{
+                color: @yellow;
+                font-size: 220%;
+            }
+        }
+        .story{
+            width: 55%;
+            h2{
+                color: @grey;
+                font-size: 200%;
+            }
+            p{
+                color: white;
+            }
+        }
+    }
+}    
+p{
+    font-size: 1.3rem;
 }
